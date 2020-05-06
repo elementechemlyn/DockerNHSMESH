@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+    <com.izforge.izpack.panels.hello.HelloPanel id="HelloPanel_0"/>
+    <com.izforge.izpack.panels.target.TargetPanel id="TargetPanel_1">
+        <installpath>/usr/MESH-APP-HOME</installpath>
+    </com.izforge.izpack.panels.target.TargetPanel>
+    <com.izforge.izpack.panels.userinput.UserInputPanel id="Config.DataLocation">
+        <entry key="data.path" value="/usr/MESH-DATA-HOME"/>
+    </com.izforge.izpack.panels.userinput.UserInputPanel>
+    <com.izforge.izpack.panels.userinput.UserInputPanel id="Config.NewMailboxDetails">
+        <entry key="mailboxId" value="MAILBOX01"/>
+        <entry key="mailboxType" value="MESH"/>
+    </com.izforge.izpack.panels.userinput.UserInputPanel>
+    <com.izforge.izpack.panels.userinput.UserInputPanel id="Config.AllowAutoUpdates">
+        <entry key="autoupdate.allow" value="Y"/>
+    </com.izforge.izpack.panels.userinput.UserInputPanel>
+    <com.izforge.izpack.panels.summary.SummaryPanel id="SummaryPanel_6"/>
+    <com.izforge.izpack.panels.install.InstallPanel id="InstallPanel_7"/>
+    <com.izforge.izpack.panels.process.ProcessPanel id="ProcessPanel_8"/>
+    <com.izforge.izpack.panels.finish.FinishPanel id="FinishPanel_9"/>
+</AutomatedInstallation>
